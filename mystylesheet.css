@@ -1,0 +1,43 @@
+
+html {
+    background-color: grey;
+}
+
+body {
+    height: auto;
+    width:100%;
+
+}
+.container {
+    float: center;
+}
+.backgroundimage {
+    margin: auto;
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;*/
+   /* width: 100%;
+    height: auto;
+    max-width: 80vw;*/
+
+}
+
+img{
+    height: auto;
+    max-width: 95vw;
+}
+
+.container {
+    text-align: center;
+
+}
+h1 {
+    font-size: 50px;
+    color: red;
+}
+
+p {
+    font-size: 30px;
+    color: green;
+}
