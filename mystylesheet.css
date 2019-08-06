@@ -1,37 +1,63 @@
 
 html {
     background-color: grey;
+    height: 100%;
+    Width: 100%;
+    
 }
 
 body {
-    height: auto;
+    height: 100%;
     width:100%;
+    margin:0;
 
 }
-.container {
-    float: center;
-}
-.backgroundimage {
+
+.backgroundimage1, .backgroundimage2, .backgroundimage3 {
     margin: auto;
-    /*background-attachment: fixed;
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;*/
-   /* width: 100%;
-    height: auto;
-    max-width: 80vw;*/
-
+    background-size: cover;
+}
+.backgroundimage1 {
+    background-image: url(../Personal.website/images/Pressingapples.JPG);
+    min-height: 100%;
 }
 
-img{
-    height: auto;
-    max-width: 95vw;
+.backgroundimage2 {
+    background-image: url(../Personal.website/images/TorreCiderFarmSheep.JPG);
+    min-height: 100%;
+}
+
+.backgroundimage3 { 
+    background-image: url(../Personal.website/images/ChristmasCider.JPG);
+    min-height: 100%;
 }
 
 .container {
     text-align: center;
-
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
 }
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+a {
+    padding: 20px;
+}
+/*a hover { 
+    color: red;
+}*/
+
 h1 {
     font-size: 50px;
     color: red;
@@ -39,5 +65,7 @@ h1 {
 
 p {
     font-size: 30px;
-    color: green;
+    color: black;
+    position: center;
+    text-align: center;
 }
