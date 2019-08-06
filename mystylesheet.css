@@ -3,6 +3,7 @@ html {
     background-color: grey;
     height: 100%;
     Width: 100%;
+    margin: 0;
     
 }
 
@@ -13,8 +14,8 @@ body {
 
 }
 
-.backgroundimage1, .backgroundimage2, .backgroundimage3 {
-    margin: auto;
+.backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
+   /* margin: auto;*/    
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -23,29 +24,54 @@ body {
     background-size: cover;
 }
 .backgroundimage1 {
-    background-image: url(../Personal.website/images/Pressingapples.JPG);
+    background-image: url("../Personal.website/images/Thumbnail\ Distance.jpg");
     min-height: 100%;
 }
 
 .backgroundimage2 {
-    background-image: url(../Personal.website/images/TorreCiderFarmSheep.JPG);
+    background-image: url("../Personal.website/images/CiderinCornwall.JPG");
     min-height: 100%;
 }
 
 .backgroundimage3 { 
-    background-image: url(../Personal.website/images/ChristmasCider.JPG);
+    background-image: url("../Personal.website/images/ChristmasCider.JPG");
+    min-height: 100%;
+}
+
+.backgroundimage4 { 
+    background-image: url("../Personal.website/images/Orchard-at-Torre-cider-farm.jpg");
+    min-height: 100%;
+}
+
+.backgroundimage5 { 
+    background-image: url("../Personal.website/images/TorreCiderSheep.JPG");
     min-height: 100%;
 }
 
 .container {
     text-align: center;
-    height: 50%;
     position: absolute;
     left: 0;
     right: 0;
     top: 40%;
+    width: 100%;    
+    text-emphasis: 50px;
+
 }
 
+.picturebreak {
+    height: 10%;
+    width: 100%;
+    background-color: grey;
+
+}
+
+/* Turn off Parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .background-image1, .background-image2, .background-image3 {
+        background-attachment: scroll;
+    }
+}
 footer {
     font-size: 15px;
     text-align: center;
@@ -59,10 +85,17 @@ a {
 }*/
 
 h1 {
-    font-size: 50px;
-    color: red;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
 }
 
+h2 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+
+}
 p {
     font-size: 30px;
     color: black;
