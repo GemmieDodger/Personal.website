@@ -25,7 +25,7 @@ h2 {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: darkred;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 
     
@@ -37,8 +37,8 @@ p {
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-a h2 {
-    text-decoration-line: none;
+h2 a {
+    text-decoration: none;
         }
 
 
@@ -86,7 +86,7 @@ a h2 {
     text-emphasis: 50px;
     letter-spacing: 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    
+    text-decoration: none;
 }
 
 .picturebreak {
@@ -101,7 +101,7 @@ a h2 {
 
 /* Turn off Parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .background-image1, .background-image2, .background-image3 {
+    .backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
         background-attachment: scroll;
     }
 }
