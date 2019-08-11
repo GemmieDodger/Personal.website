@@ -121,6 +121,11 @@ footer {
    
 }
 
+footer p {
+    color: darkred;
+    font-weight: bold;
+}
+
 footer a {
     font-size: 25px;
     text-decoration: none;
