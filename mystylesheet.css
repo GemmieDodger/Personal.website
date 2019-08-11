@@ -59,13 +59,13 @@ body {
     letter-spacing: 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-/*
+
 .picturebreak {
     height: 10%;
     width: 100%;
     background-color: grey;
 
-}*/
+}
 
 /* Turn off Parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
