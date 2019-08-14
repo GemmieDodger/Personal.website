@@ -135,23 +135,26 @@ footer a {
 /* Boxes  for the Recipe Page */
 
 article {
-    width: auto;
-    display: inline-block;
-    border: 5px solid green;
-    outline-style: double;
-    outline-color: darkred;
-    padding: 50px red;
-    margin: 50px orange;
-    outline-offset: 15px; /*adds space between the outline and the data*/
+    padding: 50px blue;
+   
+}
+article div {
+    width: 320px;
+    border: 30px solid green;
+    /*outline-style: solid;
+    outline-color: darkred;*/
+    padding: 50px red;/*not sure what this did*/
+    margin: 25px orange;/* or this*/
+    /*outline-offset: 15px; /*adds space between the outline and the data*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    display:inline-block;
 }
 
 img {
     width: 250px;
     margin: 15px;
-    position: center;
     display: inline-block;
 
 }
@@ -161,5 +164,8 @@ h3 a {
     font-size: 20px;
     text-decoration: none;
     font-weight: normal;
+    text-align: center;
+    background-color: red;
+    display: inline-block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
