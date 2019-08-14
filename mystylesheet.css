@@ -132,3 +132,19 @@ footer a {
    
 }
 
+/* Boxes  for the Recipe Page */
+
+article {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+h3 a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
