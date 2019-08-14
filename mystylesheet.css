@@ -135,10 +135,25 @@ footer a {
 /* Boxes  for the Recipe Page */
 
 article {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    width: auto;
+    display: inline-block;
+    border: 5px solid green;
+    outline-style: double;
+    outline-color: darkred;
+    padding: 50px red;
+    margin: 50px orange;
+    outline-offset: 15px; /*adds space between the outline and the data*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+img {
+    width: 250px;
+    margin: 15px;
+    position: center;
+    display: inline-block;
+
 }
 
 h3 a {
