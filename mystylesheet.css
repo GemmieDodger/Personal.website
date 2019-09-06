@@ -134,27 +134,44 @@ footer a {
 
 /* Boxes  for the Recipe Page */
 
-article {
+/*article {
     padding: 50px blue;
+    margin-left: auto;
+    margin-right: auto;
+
    
+}*/
+
+.Grid-for-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+
 }
-article div {
+
+.recipe-item {
     width: 320px;
-    border: 30px solid green;
+    border: 30px grey;
     /*outline-style: solid;
     outline-color: darkred;*/
-    padding: 50px red;/*not sure what this did*/
-    margin: 25px orange;/* or this*/
+    /*padding: 50px grey;not sure what this did*/
+    /*margin: 25px orange; or this*/
     /*outline-offset: 15px; /*adds space between the outline and the data*/
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    display:inline-block;
+    /*background-position: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 
 img {
     width: 250px;
+    height: 250px;
     margin: 15px;
+    background-size: contain;
+    padding-top: 15px;
     display: inline-block;
 
 }
@@ -164,8 +181,12 @@ h3 a {
     font-size: 20px;
     text-decoration: none;
     font-weight: normal;
+    width: 250px;
+    height:40px;
     text-align: center;
-    background-color: red;
+    background-color: grey;
     display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
