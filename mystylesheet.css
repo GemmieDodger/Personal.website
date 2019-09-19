@@ -1,6 +1,8 @@
 
 html {
-    background-color: grey;
+    /*background-image: url('../Personal.website/images/Marblebackground.jpg');*/
+
+    position: relative;
     height: 100%;
     Width: 100%;
     margin: 0;
@@ -11,7 +13,7 @@ body {
     height: 100%;
     width:100%;
     margin:0;
-
+    background-image: url('../Personal.website/images/Marblebackground.jpg');
 }
 
 
@@ -50,6 +52,7 @@ h2 a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 .backgroundimage1 {
     background-image: url("../Personal.website/images/Thumbnail\ Distance.jpg");
@@ -92,7 +95,7 @@ h2 a {
 .picturebreak {
     height: auto;
     width: auto;
-    background-color: grey;
+    /*background-color: lightgrey;*/
     text-align: center;
 
 }
