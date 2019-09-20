@@ -13,7 +13,7 @@ body {
     height: 100%;
     width:100%;
     margin:0;
-    background-image: url('../Personal.website/images/Marblebackground.jpg');
+    
 }
 
 
@@ -100,7 +100,10 @@ h2 a {
 
 }
 
-
+.background {
+    background-image: url('../Personal.website/images/Marblebackground.jpg');
+    background-size: cover;
+}
 
 /* Turn off Parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -132,7 +135,8 @@ footer p {
 footer a {
     font-size: 25px;
     text-decoration: none;
-   
+   text-align: center;
+   padding: 50px;
 }
 
 /* Boxes  for the Recipe Page */
@@ -215,6 +219,7 @@ button {
     text-decoration: none;
     font-weight: normal;
     width: 250px;
+    background: none;
     height:80px;
     text-align: center;
     /*background-color: grey;*/
@@ -234,13 +239,13 @@ button {
     width: 100%; /* Full width */
     height: 100%; /*full height*/
     overflow: auto; /*enable scroll if needed*/
-    background-color:grey; /* Fallback color*/
-    background-color: rgb(228, 8, 8); /*black w/ opacity*/
+    /*background-color:grey; /* Fallback color*/
+    /*background-color: rgb(228, 8, 8); /*black w/ opacity*/
 
 }
 /*Modal Content/Box*/
 .modal-content {
-    background-color: #fefefe;
+    background-color: grey;
     margin: 15% auto; /*15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
