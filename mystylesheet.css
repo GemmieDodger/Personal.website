@@ -92,13 +92,13 @@ h2 a {
     text-decoration: none;
 }
 
-.picturebreak {
+/*.picturebreak {
     height: auto;
     width: auto;
     /*background-color: lightgrey;*/
-    text-align: center;
+    /*text-align: center;
 
-}
+}*/
 
 .background {
     background-image: url('../Personal.website/images/white-blurred-background.jpg');
