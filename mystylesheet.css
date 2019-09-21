@@ -45,7 +45,7 @@ h2 a {
 
 
 .backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
-   /* margin: auto;*/    
+    /*margin: auto;*/    
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
