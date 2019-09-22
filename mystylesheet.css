@@ -1,21 +1,24 @@
 
 html {
-    /*background-image: url('../Personal.website/images/Marblebackground.jpg');*/
-
     position: relative;
     height: 100%;
     Width: 100%;
     margin: 0;
-    
+
 }
 
 body {
     height: 100%;
     width:100%;
-    margin:0;
+    margin:0px;
     
 }
 
+#background {
+    background-image: url('../Personal.website/images/white-blurred-background.jpg');
+    background-size: cover;
+    box-shadow: 25px 45px 50px 5px white inset, -25px -25px 50px 5px white inset;     
+}
 
 h1 {
     font-size: 70px;
@@ -47,12 +50,13 @@ h2 a {
 .backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
     /*margin: auto;*/    
     position: relative;
-    opacity: 0.65;
+    opacity: 0.85;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
+   
 }
 .backgroundimage1 {
     background-image: url("../Personal.website/images/Thumbnail\ Distance.jpg");
@@ -92,18 +96,7 @@ h2 a {
     text-decoration: none;
 }
 
-/*.picturebreak {
-    height: auto;
-    width: auto;
-    /*background-color: lightgrey;*/
-    /*text-align: center;
 
-}*/
-
-.background {
-    background-image: url('../Personal.website/images/white-blurred-background.jpg');
-    background-size: cover;
-}
 
 /* Turn off Parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -112,6 +105,10 @@ h2 a {
     }
 }
 
+.intro {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 h2 a {
     padding: 20px;
@@ -140,14 +137,6 @@ footer a {
 }
 
 /* Boxes  for the Recipe Page */
-
-/*article {
-    padding: 50px blue;
-    margin-left: auto;
-    margin-right: auto;
-
-   
-}*/
 
 .Grid-for-box {
     display: block;
