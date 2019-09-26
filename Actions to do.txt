@@ -1,0 +1,10 @@
+Actions:
+
+Update social links to be non-purple
+Link a chance of cider to blog
+Add in Menu button
+Make all pages opening picture less than full screen
+Add buttons to Recipe pages
+Insert recipes to modals on recipe pages
+Change colour of modals
+Make buttons non-clickable on Project page
