@@ -1,7 +1,7 @@
 Actions:
 
 Update social links to be non-purple
-Link a chance of cider to blog
+
 Add in Menu button
 
 Add buttons to Recipe pages
@@ -11,3 +11,4 @@ Make buttons non-clickable on Project page
 
 Actioned:
 26.09 Make all pages opening picture less than full screen
+30.09Link a chance of cider to blog
