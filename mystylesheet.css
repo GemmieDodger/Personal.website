@@ -65,7 +65,7 @@ header {
     
 }
 
-.backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
+.backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4 {
     /*margin: auto;*/    
     position: relative;
     opacity: 0.85;
@@ -82,24 +82,20 @@ header {
 }
 
 .backgroundimage2 {
-    background-image: url("../Personal.website/images/TorreCiderSheep.JPG");
-    min-height: 100%;
-}
-
-.backgroundimage3 { 
     background-image: url("../Personal.website/images/CiderinCornwall.JPG");
     min-height: 100%;
 }
 
-.backgroundimage4 { 
-    background-image: url("../Personal.website/images/Glyndebourne2019.jpg");
+.backgroundimage3 { 
+    background-image: url("../Personal.website/images/Glyndebourne2019.JPG");
     min-height: 100%;
 }
 
-.backgroundimage5 { 
+.backgroundimage4 { 
     background-image: url("../Personal.website/images/GFDFCake2019.JPG");
     min-height: 100%;
 }
+
 
 .container {
     text-align: center;
