@@ -1,4 +1,3 @@
-
 html {
     position: relative;
     height: 100%;
@@ -9,16 +8,16 @@ html {
 
 body {
     height: 100%;
-    width:100%;
-    margin:0px;
-    
+    width: 100%;
+    margin: 0px;
+
 }
 
 
 #background {
     background-image: url('../Personal.website/images/white-blurred-background.jpg');
     background-size: cover;
-    box-shadow: 10px 2px 10px 5px white inset, -25px -25px 50px 5px white inset;     
+    box-shadow: 10px 2px 10px 5px white inset, -25px -25px 50px 5px white inset;
     margin: 0px 0px 0px 0px;
 }
 
@@ -35,7 +34,7 @@ h2 {
     text-decoration: none;
 }
 
-    
+
 p {
     color: black;
     position: center;
@@ -48,25 +47,32 @@ p {
 
 /*header starts here*/
 
-h2 a /*Links on home page*/ {
+h2 a
+
+/*Links on home page*/
+    {
     padding: 20px;
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: darkred;
     text-decoration-line: none;
-    
+
 }
 
 header {
     position: relative;
-    height: 95%; 
+    height: 95%;
     Width: 100%;
     margin: 0;
-    
+
 }
 
-.backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
-    /*margin: auto;*/    
+.backgroundimage1,
+.backgroundimage2,
+.backgroundimage3,
+.backgroundimage4,
+.backgroundimage5 {
+    /*margin: auto;*/
     position: relative;
     opacity: 0.85;
     background-attachment: fixed;
@@ -74,8 +80,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
-   
+
 }
+
 .backgroundimage1 {
     background-image: url("../Personal.website/images/Thumbnail\ Distance.jpg");
     min-height: 100%;
@@ -86,16 +93,17 @@ header {
     min-height: 100%;
 }
 
-.backgroundimage3 { 
+.backgroundimage3 {
     background-image: url("../Personal.website/images/Glyndebourne2019.JPG");
     min-height: 100%;
 }
 
-.backgroundimage4 { 
+.backgroundimage4 {
     background-image: url("../Personal.website/images/GFDFCake2019.JPG");
     min-height: 100%;
 }
-.backgroundimage5 { 
+
+.backgroundimage5 {
     background-image: url("../Personal.website/images/Nailart.jpg");
     min-height: 100%;
 }
@@ -106,7 +114,7 @@ header {
     left: 0;
     right: 0;
     top: 30%;
-    width: 100%;    
+    width: 100%;
     text-emphasis: 50px;
     letter-spacing: 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -125,33 +133,42 @@ header {
     margin-right: 20%;
     width: 60%;
     float: center;
-    
+
 }
+
 .container2 p {
     color: black;
     font-size: 15px;
-  
+
 }
 
 /* Turn off Parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
+
+    .backgroundimage1,
+    .backgroundimage2,
+    .backgroundimage3,
+    .backgroundimage4,
+    .backgroundimage5 {
         background-attachment: scroll;
     }
 }
 
-.intro /*blurb at the top of a page*/ {
+.intro
+
+/*blurb at the top of a page*/
+    {
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 15px;
-   padding-top: 20px;
-   padding-left: 5%;
-   padding-right: 5%;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 footer {
     text-align: center;
-   
+
 }
 
 footer p {
@@ -159,14 +176,15 @@ footer p {
     font-weight: bold;
 }
 
-footer a, header footer {
+footer a,
+header footer {
     font-size: 25px;
     text-decoration: none;
-   text-align: center;
-   padding-bottom: 15px;
-   padding-top: 5px;
-   padding-left: 5%;
-   padding-right: 5%;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* Boxes  for the Recipe Page */
@@ -175,7 +193,7 @@ footer a, header footer {
     display: block;
     margin-left: 30px;
     margin-right: auto;
-    text-align:center;
+    text-align: center;
 }
 
 .recipe-item {
@@ -186,12 +204,12 @@ footer a, header footer {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-   
+
 }
 
 .Recipe {
-   margin-left: 15%;
-   margin-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 
@@ -222,13 +240,14 @@ h3 p {
 }
 
 
-h3 a, h3 {
+h3 a,
+h3 {
     color: black;
     font-size: 20px;
     text-decoration: none;
     font-weight: normal;
     width: 250px;
-    height:80px;
+    height: 80px;
     text-align: center;
     /*background-color: grey;*/
     display: inline-block;
@@ -249,13 +268,13 @@ h3 a, h3 {
     padding-right: 40px;
     padding-top: 40px;
     padding-right: 40px;
-  }
-  
-  #myImg:hover {
+}
+
+#myImg:hover {
     opacity: 0.7;
-  }
-  
-  .modal {
+}
+
+.modal {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -276,9 +295,9 @@ h3 a, h3 {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9);
     /* Black w/ opacity */
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     margin: auto;
     padding-top: 0px;
     margin-top: 0px;
@@ -287,9 +306,9 @@ h3 a, h3 {
     height: auto;
     max-height: 75%;
     max-width: 700px;
-  }
-  
-  #caption {
+}
+
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -298,24 +317,25 @@ h3 a, h3 {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
-  }
-  
-  .modal-content,
-  #caption {
+}
+
+.modal-content,
+#caption {
     animation-name: zoom;
     animation-duration: 0.6s;
-  }
-  
-  @keyframes zoom {
+}
+
+@keyframes zoom {
     from {
-      transform: scale(0)
+        transform: scale(0)
     }
+
     to {
-      transform: scale(1)
+        transform: scale(1)
     }
-  }
-  
-  .close {
+}
+
+.close {
     position: absolute;
     top: 5px;
     right: 35px;
@@ -324,20 +344,20 @@ h3 a, h3 {
     font-weight: bold;
     transition: 0.3s;
 
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  @media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 700px) {
     .modal-content {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 /*
 button {
@@ -350,31 +370,32 @@ button {
     height:80px;
     text-align: center;
     /*background-color: grey;*/
-   /* display: inline-block;
+/* display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* The Modal (background) *//*
+/* The Modal (background) */
+/*
 .modal {
     display: none; /*hidden by default*/
-    /*position: fixed; /*stay in place*/
-    /*z-index: 1; /*sit on top*/
-    /*left: 0;
+/*position: fixed; /*stay in place*/
+/*z-index: 1; /*sit on top*/
+/*left: 0;
     top: 0;
     width: 100%; /* Full width */
-    /*height: 100%; /*full height*/
-    /*overflow: auto; /*enable scroll if needed*/
-    /*background-color:grey; /* Fallback color*/
-    /*background-color: rgb(228, 8, 8); /*black w/ opacity*/
+/*height: 100%; /*full height*/
+/*overflow: auto; /*enable scroll if needed*/
+/*background-color:grey; /* Fallback color*/
+/*background-color: rgb(228, 8, 8); /*black w/ opacity*/
 
 /*}
 /*Modal Content/Box
 .modal-content {
     background-color: grey;
     margin: 15% auto; /*15% from the top and centered */
-    /*padding: 20px;
+/*padding: 20px;
     border: 1px solid #888;
     width: 80%; /*could be more or less, depending on screen size */
 /*}
