@@ -3,7 +3,7 @@
 
 <!---Link to CSS-->
 <link rel="stylesheet" type="text/css" href="../Personal.website/mystylesheet.css" media="all" />
-<!--- </p>For reference: Adding Paralell Scrolling from this link:https://www.w3schools.com/howto/howto_css_parallax.asp </p>-->
+
 
 <head>
     <meta charset="utf-8">
@@ -22,31 +22,34 @@
     <div id="background">
 
         <div class="intro">
-            <p>When I moved to London I decided it would be nice to get into sewing and make some outfits that I wanted, but couldn’t find in the shops! So that’s what I did and I’m pretty happy that I am on the way to being a fairly good seamstress. My biggest problem is finding the time to do it!</p>
+            <p>When I moved to London I decided it would be nice to get into sewing and make some outfits that I wanted,
+                but couldn’t find in the shops! So that’s what I did and I’m pretty happy that I am on the way to being
+                a fairly good seamstress. My biggest problem is finding the time to do it!</p>
         </div>
 
         <!-- boxes being added for projects-->
-
+        
         <section class="Grid-for-box">
-            <div class="recipe-item">
-                <img src="../Personal.website/images/Glyndebourne2017.jpg" alt="Glyndebourne 2017" >
-                <h3> 
-                    <p >Glyndebourne ball gown 2017</p>
-                </h3>
+
+            <img class="myImages" id="myImg" src="../Personal.website/images/Glyndebourne2017.jpg"
+                alt="Based on Satine's dress from the Moulin Rouge, created a ballgown to visit an Opera at Glyndebourne in 2017">
+           <img class="myImages" id="myImg" src="../Personal.website/images/Glyndebourne2019.jpg"
+                alt="Attended Glyndebourne 2019 with a dress in the style of Tiana from Princess and the Frog with lace on the skirt that blends into nature">
+            <img class="myImages" id="myImg" src="../Personal.website/images/Sewing.Cape2016.jpg"
+                alt="Created a fairy-tale vintage winter cape in autumnal colours">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
             </div>
-            
-            <div class="recipe-item">
-                <img src="../Personal.website/images/Glyndebourne2019.jpg" alt="Glyndebourne 2019">
-                <h3>
-                    <p>Glyndebourne ball gown 2019</p>
-                </h3>
-            </div>
-            <div class="recipe-item">
-                <img src="../Personal.website/images/Sewing.Cape2016.jpg" alt="Vintage winter cape">
-                <h3>
-                   <p>Vintage winter cape</p>
-                </h3>
-            </div>
+
         </section>
 
         <!-- END OF boxes being added forprojects-->
