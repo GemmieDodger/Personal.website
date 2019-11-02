@@ -65,7 +65,7 @@ header {
     
 }
 
-.backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4 {
+.backgroundimage1, .backgroundimage2, .backgroundimage3, .backgroundimage4, .backgroundimage5 {
     /*margin: auto;*/    
     position: relative;
     opacity: 0.85;
@@ -95,7 +95,10 @@ header {
     background-image: url("../Personal.website/images/GFDFCake2019.JPG");
     min-height: 100%;
 }
-
+.backgroundimage5 { 
+    background-image: url("../Personal.website/images/Nailart.jpg");
+    min-height: 100%;
+}
 
 .container {
     text-align: center;
@@ -118,8 +121,10 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    float: center;
     
 }
 .container2 p {
