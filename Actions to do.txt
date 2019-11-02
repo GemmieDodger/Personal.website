@@ -12,3 +12,6 @@ Make buttons non-clickable on Project page
 Actioned:
 26.09 Make all pages opening picture less than full screen
 30.09Link a chance of cider to blog
+
+QUESTIONS:
+WIth website development page. How to make sure all caption boxes are the same size to stop the display being wonky... TBC
