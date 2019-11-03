@@ -23,7 +23,7 @@ body {
 
 h1 {
     font-size: 70px;
-    font-family: snell -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: darkred;
 }
 
@@ -41,7 +41,7 @@ p {
     text-align: center;
     padding: 15px 15px 15px 15px;
     font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -125,6 +125,7 @@ header {
     letter-spacing: 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-decoration: none;
+ 
 }
 
 .container2 {
@@ -138,14 +139,15 @@ header {
     margin-right: 20%;
     width: 60%;
     float: center;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    
+ 
+    /*text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+    */
 }
 
 .container2 p {
     color: black;
-    letter-spacing: 2px;
-    
+    letter-spacing: 0px;
+    font-weight: bolder;
     font-size: 15px;
 
 }
@@ -157,7 +159,7 @@ text-emphasis: 50px;
 font-weight: bold;
 left: 0;
 right: 0;
-top: 90%;
+bottom: 5%;
 margin-left: 20%;
 margin-right: 20%;
 width: 60%;
@@ -444,58 +446,3 @@ h3 {
       text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   }
 
-/*
-button {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: normal;
-    width: 250px;
-    background: none;
-    height:80px;
-    text-align: center;
-    /*background-color: grey;*/
-/* display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* The Modal (background) */
-/*
-.modal {
-    display: none; /*hidden by default*/
-/*position: fixed; /*stay in place*/
-/*z-index: 1; /*sit on top*/
-/*left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-/*height: 100%; /*full height*/
-/*overflow: auto; /*enable scroll if needed*/
-/*background-color:grey; /* Fallback color*/
-/*background-color: rgb(228, 8, 8); /*black w/ opacity*/
-
-/*}
-/*Modal Content/Box
-.modal-content {
-    background-color: grey;
-    margin: 15% auto; /*15% from the top and centered */
-/*padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /*could be more or less, depending on screen size */
-/*}
-
-/*The Close Button 
-.close {
-    color:grey;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}

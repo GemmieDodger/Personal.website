@@ -2,16 +2,9 @@ Actions:
 
 Update social links to be non-purple
 
-Add in Menu button
 
-Add buttons to Recipe pages
-Insert recipes to modals on recipe pages
-Change colour of modals
-Make buttons non-clickable on Project page
-
-Actioned:
-26.09 Make all pages opening picture less than full screen
-30.09Link a chance of cider to blog
-
-QUESTIONS:
+To work on:
 WIth website development page. How to make sure all caption boxes are the same size to stop the display being wonky... TBC
+Home page - making sure that once made into a small browser, the writing cannot be over each other
+Menu-bar over the top of all data
+Floating menu bar icon as you scroll down the page
