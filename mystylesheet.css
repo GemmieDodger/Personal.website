@@ -386,11 +386,12 @@ h3 {
     }
 }
 
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    position: fixed; /* Stay in place - was fixed*/
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
@@ -404,6 +405,8 @@ h3 {
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
+
+    font-weight: bolder;
     font-size: 25px;
     color: darkred;
     display: block;
@@ -416,7 +419,7 @@ h3 {
     color: #f1f1f1;
   }
   
-  /* Position and style the close button (top right corner) */
+  /* Position and style the close button (top left) */
   .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -425,11 +428,7 @@ h3 {
     margin-left: 50px;
   }
   
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
+
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
@@ -437,6 +436,13 @@ h3 {
     .sidenav a {font-size: 18px;}
   }
 
+  .menubutton {
+      font-size:50px;
+      color: black;
+      cursor:pointer;
+      padding-left: 15px;
+      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  }
 
 /*
 button {
