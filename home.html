@@ -2,18 +2,33 @@
 
 <html lang="en">
 
-<!---Link to CSS-->
-<link rel="stylesheet" type="text/css" href="../Personal.website/mystylesheet.css" media="all" />
+
 <!--- </p>For reference: Adding Paralell Scrolling from this link:https://www.w3schools.com/howto/howto_css_parallax.asp </p>-->
 
 <head>
     <meta charset="utf-8">
     <title>Gemma Druce Personal Website</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <!---Link to CSS-->
+<link rel="stylesheet" type="text/css" href="../Personal.website/mystylesheet.css" media="all" />
+<script src="myjava.js"></script>
 </head>
 
 <body>
+  
+
     <header>
+            <nav>
+                    <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">Home</a>
+                            <a href="#">A Chance of Cider</a>
+                            <a href="#">Projects</a>
+                            <a href="#">Contact</a>
+                          </div>
+                          
+                          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </nav>      
         <div class="backgroundimage1">
             <div class="container">
                 <h1>Gemma Druce</h1>
