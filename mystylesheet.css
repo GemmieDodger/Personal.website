@@ -59,10 +59,16 @@ h2 a
 
 }
 
-header {
+.backgroundscroll {
     position: relative;
     height: 100%;
     Width: 100%;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
     margin: 0;
 
 }
