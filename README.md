@@ -7,8 +7,4 @@ I'd love for ideas on how to make this more efficient. Please explain the proces
 
 THINGS TO DO:
 
-1) Having trouble with javascript the pop up modals. I have used ID but need to use CLASS so I can make multiple pop-ups with different recipes on. Any ideas how I can do this?
-2) Adding in a menu button which once clicked pulls out of the right hand side.
-
-Thank you,
-Gemma
+Next to make a dropdown responsive sub menu
