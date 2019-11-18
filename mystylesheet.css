@@ -3,7 +3,7 @@ html {
     height: 100%;
     Width: 100%;
     margin: 0;
-
+    background-color: lightgray;
 }
 
 body {
@@ -13,13 +13,13 @@ body {
 
 }
 
-
+/*
 #background {
     background-image: url('../Personal.website/images/white-blurred-background.jpg');
     background-size: cover;
     box-shadow: 10px 2px 10px 5px white inset, -25px -25px 50px 5px white inset;
     margin: 0px 0px 0px 0px;
-}
+}*/
 
 h1 {
     font-size: 70px;
