@@ -13,6 +13,8 @@ body {
 
 }
 
+
+
 h1 {
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -40,8 +42,6 @@ ul, li {
     color: black;
     font-family: "Comic Sans MS", sans-serif;
 }
-
-
 
 /*header starts here*/
 
@@ -129,7 +129,7 @@ header {
     letter-spacing: 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-decoration: none;
- 
+
 }
 
 .container2 {
@@ -143,7 +143,7 @@ header {
     margin-right: 20%;
     width: 60%;
     float: center;
- 
+
     /*text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
     */
 }
@@ -157,22 +157,22 @@ header {
 }
 
 .scroll p {
-text-align: center;
-position: absolute;
-text-emphasis: 50px;
-font-weight: bold;
-left: 0;
-right: 0;
-bottom: 5%;
-margin-left: 20%;
-margin-right: 20%;
-width: 60%;
-float: center;
-text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-color: black;
-padding: 0px;
-font-size: 30px;
-font-family: Comic Sans MS, sans-serif;
+    text-align: center;
+    position: absolute;
+    text-emphasis: 50px;
+    font-weight: bold;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    float: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: black;
+    padding: 0px;
+    font-size: 30px;
+    font-family: Comic Sans MS, sans-serif;
 }
 
 /* Turn off Parallax scrolling for tablets and phones */
@@ -405,20 +405,29 @@ h3 a,
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place - was fixed*/
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place - was fixed*/
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
 
@@ -428,34 +437,39 @@ h3 a,
     display: block;
     transition: 0.3s;
     width: 200px;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top left) */
-  .sidenav .closebtn {
+}
+
+/* Position and style the close button (top left) */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
+}
 
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
-  .menubutton {
-      font-size:50px;
-      color: black;
-      cursor:pointer;
-      padding-left: 15px;
-      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-  }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.menubutton {
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    padding-left: 15px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
