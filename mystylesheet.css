@@ -13,14 +13,6 @@ body {
 
 }
 
-/*
-#background {
-    background-image: url('../Personal.website/images/white-blurred-background.jpg');
-    background-size: cover;
-    box-shadow: 10px 2px 10px 5px white inset, -25px -25px 50px 5px white inset;
-    margin: 0px 0px 0px 0px;
-}*/
-
 h1 {
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -41,8 +33,14 @@ p {
     text-align: center;
     padding: 15px 15px 15px 15px;
     font-size: 15px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
+
 }
+ul, li {
+    color: black;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
 
 
 /*header starts here*/
@@ -174,7 +172,7 @@ text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 wh
 color: black;
 padding: 0px;
 font-size: 30px;
-font-family: Comic Sans MS, cursive, sans-serif;
+font-family: Comic Sans MS, sans-serif;
 }
 
 /* Turn off Parallax scrolling for tablets and phones */
@@ -209,6 +207,12 @@ footer {
 footer p {
     color: darkred;
     font-weight: bold;
+}
+
+footer img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
 }
 
 footer a,
@@ -271,12 +275,16 @@ h3 p {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-    font-family: Comic Sans MS, cursive, sans-serif;
+    font-family: Comic Sans MS, sans-serif;
 }
 
+h3 {
+    text-emphasis: bolder;
+    font-family: Comic Sans MS, sans-serif;
+}
 
 h3 a,
-h3 {
+.recipe-item h3{
     color: black;
     font-size: 20px;
     text-decoration: none;
@@ -288,7 +296,7 @@ h3 {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-    font-family: Comic Sans MS, cursive, sans-serif;
+    font-family: Comic Sans MS, sans-serif;
     /*min-width: 250px;
     min-height: 100px;*/
 }
