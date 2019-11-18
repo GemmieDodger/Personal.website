@@ -283,6 +283,10 @@ h3 {
     font-family: Comic Sans MS, sans-serif;
 }
 
+li, ul {
+    font-family: Comic Sans MS, sans-serif;
+}
+
 h3 a,
 .recipe-item h3{
     color: black;
