@@ -474,7 +474,7 @@ h3 a,
     font-size: 50px;
     color: black;
     cursor: pointer;
-    padding-left: 8px;
+    padding-left: 5px;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 .backbutton {
@@ -483,7 +483,7 @@ h3 a,
     height: 45px;
     width: 45px;
     /*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
-    margin-left:8px;
+    margin-left:5px;
     margin-bottom: 0%;
     bottom: 0;
     text-decoration-line: none;
