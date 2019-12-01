@@ -474,19 +474,19 @@ h3 a,
     font-size: 50px;
     color: black;
     cursor: pointer;
-    padding-left: 15px;
+    padding-left: 10px;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 .backbutton {
     background-color:black;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     /*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
     margin-left:7px;
     margin-bottom: 0%;
     bottom: 0;
- 
+    text-decoration-line: none;
 
     
 }
@@ -494,9 +494,9 @@ h3 a,
 .backbuttontext {
     padding: 12%;
     padding-top: 20%;
-    text-decoration-line: none;
+ 
     
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     text-align: center;
     font-weight: bold;
