@@ -76,7 +76,8 @@ header {
 .backgroundimage3,
 .backgroundimage4,
 .backgroundimage5,
-.backgroundimage6 {
+.backgroundimage6,
+.backgroundimage7 {
     /*margin: auto;*/
     position: relative;
     opacity: 0.85;
@@ -188,7 +189,9 @@ header {
     .backgroundimage2,
     .backgroundimage3,
     .backgroundimage4,
-    .backgroundimage5 {
+    .backgroundimage5,
+    .backgroundimage6,
+    .backgroundimage7 {
         background-attachment: scroll;
     }
 }
